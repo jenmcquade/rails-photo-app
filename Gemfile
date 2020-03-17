@@ -15,6 +15,8 @@ gem 'puma', '~> 4.1'
 gem 'sass-rails', '>= 6'
 # Heroku email sends
 gem 'sendgrid-ruby'
+# Credit Card Processing
+gem 'stripe'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 4.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
