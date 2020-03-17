@@ -1,5 +1,5 @@
 <script language="Javascript">
-  Stripe.setPublishableKey("<%= ENV['STRIPE_TEST_PUBLISHABLE_KEY'] %>");
+  Stripe.setPublishableKey("<%= Rails.application.credentials.stripe[:test_publishable_key] %>")
 </script>
 <div class="row justify-content-md-center">
   <div class="col-sm-9">
