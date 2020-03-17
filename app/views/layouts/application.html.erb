@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>PhotoApp</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+</head>
 
-  <body>
+<body>
     <%= render 'layouts/navigation' %>
     <div class="container page-body">
-      <%= render 'layouts/messages' %>
-      <%= yield %>
+        <%= render 'layouts/messages' %>
+        <%= yield %>
     </div>
-  </body>
+</body>
+
 </html>
