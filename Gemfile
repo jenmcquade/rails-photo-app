@@ -3,12 +3,22 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.0'
 
-gem 'bootstrap', '~>4.3.1'
+# File Uploader
+gem 'carrierwave'
+# Authentication
 gem 'devise'
 gem 'devise-bootstrap-views'
+# Bootstrap
+#gem 'bootstrap', '~>4.3.1'
+gem 'twitter-bootstrap-rails'
+# Production images
+gem 'fog'
+# Font Awesome 
 gem 'font-awesome-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
+# Image manipulation
+gem 'mini_magick'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
