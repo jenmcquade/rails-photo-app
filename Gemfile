@@ -20,7 +20,7 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 # Image manipulation
 gem 'mini_magick'
 # Use Puma as the app server
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Heroku email sends
